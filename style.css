@@ -1,0 +1,624 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 1173px;
+}
+.asdf {
+    position: relative;
+}
+.hero {
+    background: url("img/backgroung-image.png") no-repeat;
+    background-size: cover;
+}
+.hero__logo {
+    padding: 32px 0 39px 31px;
+}
+.hero__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+    width: 518px;
+    letter-spacing: -1.7px;
+    padding: 105px 0 28px 31px;
+}
+.hero__text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5E5E5E;
+    width: 384px;
+    letter-spacing: normal;
+    padding-left: 31px;
+    padding-bottom: 295px;
+}
+.hero__form {
+    padding: 28px 35px;
+    position: absolute;
+    top: 131px;
+    right: -227px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    width: 436px;
+    border-radius: 10px;
+}
+.hero__form-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.47px;
+    letter-spacing: -0.55px;
+    color: #024547;
+}
+.hero__input:not(:last-child) {
+    margin-bottom: 20px;
+}
+.hero__form-text {
+    padding: 6px 0 15px 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    color: #5E5E5E;
+}
+.hero__form-input-name {
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+}
+.hero__form-input-email {
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+}
+.hero__form-input-list {
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+}
+.hero__form-input-textarea {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+    height: 150px;
+}
+.hero__form-input-button {
+    background: #CC9D42;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    padding: 15px 106px 16px 106px;
+    border: none;
+    border-radius: 5px;
+}
+.hero__form-input-button:hover {
+    background: #FFFFFF;
+    color: #CC9D42;
+    transition: all .2s ease-in-out;
+}
+.why__mcard {
+    padding: 19px 69px 8px 0;
+    width: 169px;
+}
+.why__hero{
+    position: relative;
+}
+.why__mcard:nth-child(1) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.why__mcard:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    left: 277px;
+}
+.why__mcard span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41.02px;
+    color: #024547;
+}
+.why__mcard p {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5E5E5E;
+}
+.why__descr {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+.why__descr p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.52px;
+    margin: 0 0 28px 0;
+}
+.why__descr span {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5E5E5E;
+    margin: 0 0 18px 0;
+}
+.why__descr-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.asdffds {
+    display: flex;
+    padding: 108px 0 0 0;
+}
+.why__hero {
+    width: 50%;
+}
+.why__why {
+    width: 50%;
+}
+.why__title {
+    width: 219px;
+    border-left: 6px solid #024547;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    margin-top: 459px;
+    padding-left: 30px;
+}
+.why__text {
+    width: 345px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 33px;
+    color: #5E5E5E;
+}
+.why__cards {
+    margin: 280px 0 89px 0;
+    width: 621px;
+    height: 470px;
+    position: relative;
+}
+.why__card {
+    width: 282px;
+    height: 197px;
+    position: absolute;
+}
+.why__card-title {
+    font-family: "Roboto";
+    font-weight: 500px;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.44px;
+    padding-top: 18px;
+}
+.why__card-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 11px;
+    color: #5E5E5E;
+}
+.why__card:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.why__card:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+.why__card:nth-child(3) {
+    bottom: 0;
+    left: 0;
+}
+.why__card:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
+.courses {
+    background: #024547;
+    height: 805px;
+}
+.asdfafdsa{
+    position: relative;
+}
+.courses__descr {
+    padding: 130px 0 0 0;
+}
+.courses__title {
+    width: 219px;
+    border-left: 6px solid #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+.courses__text {
+    width: 345px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 33px;
+    color: #FFFFFF;
+}
+.courses__cards {
+    width: 889px;
+    height: 590px;
+    position: absolute;
+    top: 112px;
+    right: 1px;
+}
+.courses__card {
+    font-family: "Roboto";
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 7px;
+    width: 274px;
+    height: 274px;
+}
+.courses__card:nth-child(1) {
+    top: 0;
+    right: 307px;
+}
+.courses__card:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+.courses__card:nth-child(3) {
+    bottom: 0;
+    left: 0;
+}
+.courses__card:nth-child(4) {
+    bottom: 0;
+    right: 307px;
+}
+.courses__card:nth-child(5) {
+    bottom: 0;
+    right: 0;
+}
+.courses__card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.courses__card-hero-text {
+    padding-left: 25px;
+    color: #5E5E5E;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+.courses__card-why-text {
+    padding-left: 25px;
+    padding-bottom: 23px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+.courses__card-img {
+    position: absolute;
+    top: 38px;
+    left: 64px;
+}
+.courses__pricing-img {
+    left: 89px;
+}
+.sdfs {
+    position: relative;
+    padding-left: 21px;
+}
+.pricing {
+    padding-top: 93px;
+}
+.pricing__title {
+    width: 219px;
+    border-left: 6px solid #024547;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    padding-left: 30px;
+    color: #000000;
+}
+.pricing__text {
+    width: 345px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 33px;
+    color: #5E5E5E;
+    padding-bottom: 220px;
+}
+.pricing__cards {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pricing__card {
+    width: 311px;
+    height: 380px;
+    position: relative;
+}
+.pricing__card-attribute {
+    background-color: #FF9F1C;
+    border-radius: 20px;
+    position: absolute;
+    top: 32px;
+    right: 30px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.2px;
+    color: #FFFFFF;
+    padding: 6px 14px;
+}
+.pricing__card-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #024547;
+    padding-bottom: 15px;
+    padding-top: 32px;
+}
+.pricing__card-price {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35.16px;
+    color: #024547;
+    padding-bottom: 29px;
+}
+.pricing__card-price span {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #024547;
+    opacity: 0.5;
+}
+.pricing__card-list li {
+    list-style-type: none;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #024547;
+}
+.pricing__card-list li:not(:last-child) {
+    padding-bottom: 14px;
+}
+.pricing__card-list img {
+    list-style-type: none;
+    padding-right: 15px;
+}
+.pricing__card-button {
+    position: absolute;
+    left: 31px;
+    bottom: 27px;
+    background: #CC9D42;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    padding: 15px 93px 16px 93px;
+    border: none;
+    border-radius: 5px;
+}
+.pricing__card-button:hover {
+    background: #FFFFFF;
+    color: #CC9D42;
+    transition: all .2s ease-in-out;
+}
+.ghjs {
+    padding-left: 21px;
+}
+.testimonials {
+    padding-top: 93px;
+}
+.testimonials__title{
+    width: 219px;
+    border-left: 6px solid #024547;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    padding-left: 30px;
+    color: #000000;
+    margin-bottom: 59px;
+}
+.testimonials__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 118px;
+}
+.testimonials__card {
+    width: 512px;
+    height: 254px;
+    position: relative;
+    padding: 44px 0 0 31px;
+}
+.testimonials__card-img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.testimonials__card-img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.testimonials__card-user {
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+}
+.testimonials__card-user-img {
+    border-radius: 100%;
+}
+.testimonials__card-user-name {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 9px 0 16px;
+}
+.testimonials__card-user-name span {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #5E5E5E;
+}
+.testimonials__card-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5E5E5E;
+}
+.asdfgd {
+    position: relative;
+}
+.footer {
+    background: url("img/footer-background.png") no-repeat;
+    background-size: cover;
+    padding: 116px 0 45px 0;
+}
+.footer__form {
+    padding: 28px 35px;
+    top: 131px;
+    right: -227px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    width: 436px;
+    border-radius: 10px;
+}
+.footer__form-title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.47px;
+    letter-spacing: -0.55px;
+    color: #024547;
+}
+.footer__form-text {
+    padding: 6px 0 15px 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    color: #5E5E5E;
+}
+.footer__form-input-name {
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+}
+.footer__form-input-email {
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+}
+.footer__form-input-list {
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+}
+.footer__form-input-textarea {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 13px 0 13px 18px;
+    height: 150px;
+}
+.footer__form-input-button {
+    background: #CC9D42;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.32px;
+    padding: 15px 106px 16px 106px;
+    border: none;
+    border-radius: 5px;
+}
+.footer__form-input-button:hover {
+    background: #FFFFFF;
+    color: #CC9D42;
+    transition: all .2s ease-in-out;
+}
+.footer__descr {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 511px;
+    height: 310px;
+}
+.footer__title {
+    padding-bottom: 25px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58.59px;
+    letter-spacing: -1.7px;
+}
+.footer__text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5E5E5E;
+    width: 387px;
+}
